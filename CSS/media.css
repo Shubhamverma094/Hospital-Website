@@ -1,0 +1,237 @@
+@media screen and (max-width:768px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav .nav-icon {
+        display: block;
+    }
+
+    .hero-sec img {
+        width: 80%;
+    }
+
+    .hero-text {
+        margin-left: 2rem;
+    }
+
+    .hero-text h1 {
+        font-size: 45px;
+    }
+
+
+    .feture-sec .feture-card .card {
+        margin: 15px;
+        width: 270px;
+    }
+
+    .services-section .services-card .card {
+        width: 270px;
+        height: 280px;
+        margin: 15px;
+    }
+
+
+    .services-section .services-tex h1 {
+        font-size: 45px;
+    }
+
+    .about-sec .about-text h1 {
+        font-size: 45px;
+    }
+
+    .about-sec .about-doct-sec img {
+        width: 80%;
+        margin: 3rem 0;
+    }
+
+    .about-sec .about-doct-sec .about-doct-sec-text {
+        margin-left: 1.5rem;
+    }
+
+
+    .about-sec .about-doct-sec .about-doct-sec-text h1 {
+        font-size: 45px;
+    }
+
+
+    .docter-sec .docter-text h1 {
+        font-size: 45px;
+    }
+
+    .docter-sec .doctor-card-sec .card {
+
+        width: 270px;
+        height: 340px;
+        margin: 15px;
+    }
+
+    .docter-sec .doctor-card-sec .card img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .book-sec .book-text h1 {
+        font-size: 45px;
+    }
+
+    .book-sec .book-appoint img {
+        width: 80%;
+    }
+
+    .book-sec .book-appoint .book-appoint-text {
+        width: 80%;
+        height: 380px;
+    }
+
+ 
+    .book-sec .book-appoint .book-appoint-text input {
+        width: 80%;
+    }
+
+    .clientreview-sec .client-text h1 {
+        font-size: 45px;
+    }
+
+    .clientreview-sec .clientreview-card .card {
+        width: 270px;
+        height: 540px;
+    }
+
+    .blog-sec .blog-text h1 {
+        font-size: 45px;
+    }
+
+    .blog-sec .blog-card-sec .card {
+        width: 270px;
+        height: 500px;
+    }
+
+    .blog-sec .blog-card-sec .card img {
+        width: 230px;
+    }
+
+    .blog-sec .blog-card-sec .card .blog-crd-icon .blog-icon {
+        margin: 0;
+    }
+
+    .showdata {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 30%;
+        position: fixed;
+        top: 64px;
+        right: 0;
+        background:#fefdfd;
+    
+    }
+}
+
+
+/* @media screen and (max-width:600px) */
+
+@media screen and (max-width:600px) {
+
+    .hero-sec img {
+        width: 100%;
+    }
+
+    .hero-text h1 {
+        font-size: 35px;
+    }
+
+    .feture-sec .feture-card .card {
+        margin: 15px;
+        width:100%;
+    }
+
+    .services-section .services-tex h1 {
+        font-size: 35px;
+    }
+    
+    .services-section .services-card .card {
+        width: 100%;
+        /* height: 280px;
+        margin: 15px; */
+    }
+
+    .about-sec .about-text h1 {
+        font-size: 35px;
+    }
+
+    .about-sec .about-doct-sec img {
+        width: 100%;
+        /* margin: 3rem 0; */
+    }
+
+    .about-sec .about-doct-sec .about-doct-sec-text h1 {
+        font-size: 35px;
+    }
+    .docter-sec .docter-text h1 {
+        font-size: 35px;
+    }
+    .docter-sec .doctor-card-sec .card {
+
+        width:100%;
+        /* height: 340px;
+        margin: 15px; */
+    }
+    .book-sec .book-text h1 {
+        font-size: 35px;
+    }
+
+    .book-sec .book-text h1 {
+        font-size: 35px;
+    }
+
+    .book-sec .book-appoint img {
+        width: 100%;
+    }
+
+    .book-sec .book-appoint .book-appoint-text {
+        width: 100%;
+        /* height: 380px; */
+    }
+
+
+    .book-sec .book-appoint .book-appoint-text h2{
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .book-sec .book-appoint .book-appoint-text input {
+        width: 90%;
+    }
+
+    .clientreview-sec .client-text h1 {
+        font-size: 35px;
+    }
+
+    .clientreview-sec .clientreview-card .card {
+        width: 100%;
+        /* height: 540px; */
+    }
+
+    .blog-sec .blog-text h1 {
+        font-size: 35px;
+    }
+
+    .blog-sec .blog-card-sec .card {
+        width: 100%;
+       
+    }
+
+    /* footer{
+        display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+        
+    } */
+
+}

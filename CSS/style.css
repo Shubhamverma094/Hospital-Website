@@ -1,0 +1,1032 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/* Defaulte CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(239, 237, 237);
+    /* height: 1000vh; */
+}
+
+
+/* Nav-bar start*/
+
+nav .logo i {
+    display: inline-block;
+    color: #16a085;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+nav .logo a {
+    font-size: 24px;
+    font-weight: 700;
+    /* color: #777777; */
+    color: #444;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 10px;
+    background: #fefdfd;
+    box-shadow: 0 4px 4px 2px #c3c3c3;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li {
+    margin: 8px;
+}
+
+nav ul li a {
+    /* color: #777777; */
+    color: #444;
+    font-size: 17px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 6px 10px;
+    transition: .3s;
+}
+
+nav ul li a:hover {
+    color: #16a085;
+}
+
+
+nav .nav-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #16a085;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: none;
+
+}
+
+
+.showdata{
+    position: relative;
+    
+}
+
+/* Nav-bar End*/
+
+
+/* Hero Section Start  */
+
+.hero-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.hero-sec img {
+    width: 38%;
+    margin: 8rem 0;
+
+}
+
+.hero-text {
+    margin-right: 3.5rem;
+}
+
+.hero-text h1 {
+    font-size: 54px;
+    font-weight: 700;
+    color: #444;
+
+}
+
+.hero-text p {
+    font-size: 16px;
+    margin-top: 15px;
+    color: #777;
+}
+
+.hero-text .btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    height: 40px;
+    border: 2px solid #16a085;
+    color: #444;
+    margin: 15px 0;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px 1px #16a085;
+    color: #16a085;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+
+.hero-text .btn a i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    width: 21px;
+    height: 21px;
+    margin: 0 10px;
+    background-color: #16a085;
+    border-radius: 5px;
+}
+
+
+.hero-text .btn a:hover {
+    background-color: #16a085;
+    color: #fff;
+
+}
+
+
+.hero-text .btn a:hover i {
+    transform: translateX(8px);
+    transition: .5s;
+    background-color: #fff;
+    color: #16a085;
+}
+
+
+/* Hero Section End  */
+
+/* Feture-section start */
+
+.feture-sec {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.feture-sec .feture-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.feture-sec .feture-card .card {
+    width: 250px;
+    height: 230px;
+    border: 2px solid #16a085;
+    border-radius: 5px;
+    margin: 15px;
+    box-shadow: 0px 2px 6px 1px #16a085;
+}
+
+.feture-sec .feture-card .card:hover .ficon {
+    transform: scale(1.3);
+    transition: .5s;
+}
+
+
+.feture-sec .feture-card .card .ficon {
+    font-size: 30px;
+    font-weight: 500;
+    color: #16a085;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+}
+
+.feture-sec .feture-card .card .card-text {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.feture-sec .feture-card .card .card-text h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #444;
+
+}
+
+.feture-sec .feture-card .card .card-text p {
+    font-size: 16px;
+    color: #444;
+
+}
+
+/* Feture-section End */
+
+
+/* Services-sectio-start */
+
+.services-section {
+    padding: 70px 0;
+}
+
+.services-section .services-tex {
+    text-align: center;
+}
+
+.services-section .services-tex h1 {
+    font-size: 54px;
+    font-weight: 700;
+    color: #444;
+    text-transform: uppercase;
+}
+
+.services-section .services-tex h1 span {
+    color: #16a085;
+}
+
+.services-section .services-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin: 0 12px; */
+    margin-top: 40px;
+}
+
+.services-section .services-card .card {
+    width: 340px;
+    height: 280px;
+    border: 2px solid #16a085;
+    box-shadow: 0px 2px 6px 1px #16a085;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.services-section .services-card .card .sicon {
+    font-size: 35px;
+    font-weight: 500;
+    color: #16a085;
+    margin-top: 15px;
+    margin-left: 18px;
+    /* padding:15px 18px; */
+}
+
+/* .services-section .services-card .card:hover .sicon{
+    transform: scale(1.03);
+    transition: .5s;
+} */
+
+
+
+
+.services-section .services-card .card .services-text {
+    padding: 0 18px;
+}
+
+.services-section .services-card .card .services-text h2 {
+    color: #444;
+    font-size: 25px;
+    font-weight: 600;
+
+
+}
+
+.services-section .services-card .card .services-text p {
+    font-size: 16px;
+    color: #777;
+    margin: 12px 0;
+}
+
+.services-section .services-card .card .btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border: 2px solid #16a085;
+    color: #444;
+    margin: 15px 0;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px 0px #16a085;
+    color: #16a085;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+
+.services-section .services-card .card .btn a i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    width: 21px;
+    height: 21px;
+    margin: 0 10px;
+    background-color: #16a085;
+    border-radius: 5px;
+
+}
+
+
+.services-section .services-card .card .btn a:hover {
+    background-color: #16a085;
+    color: #fff;
+}
+
+.services-section .services-card .card .btn a:hover i {
+    transform: translateX(8px);
+    transition: .5s;
+    background-color: #fff;
+    color: #16a085;
+}
+
+/* Services-sectio-End */
+
+/* About-section-start */
+
+.about-sec {
+    padding: 70px 0;
+
+}
+
+.about-sec .about-text {
+    text-align: center;
+}
+
+.about-sec .about-text h1 {
+    font-size: 54px;
+    font-weight: 700;
+    color: #444;
+    text-transform: uppercase;
+}
+
+.about-sec .about-text span {
+    color: #16a085;
+}
+
+.about-sec .about-doct-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.about-sec .about-doct-sec img {
+    width: 38%;
+    margin: 3rem 0;
+}
+
+
+
+.about-sec .about-doct-sec .about-doct-sec-text h1 {
+    font-size: 54px;
+    font-weight: 700;
+    color: #444;
+}
+
+.about-sec .about-doct-sec .about-doct-sec-text .parafirst {
+    color: #777;
+    margin-top: 15px;
+}
+
+.about-sec .about-doct-sec .about-doct-sec-text .parasecond {
+    color: #777;
+    margin-top: 20px;
+}
+
+.about-sec .about-doct-sec .about-doct-sec-text .btn a {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border: 2px solid #16a085;
+    color: #444;
+    margin: 20px 0;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px 0px #16a085;
+    color: #16a085;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .5s;
+
+}
+
+.about-sec .about-doct-sec .about-doct-sec-text .btn a i {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    width: 21px;
+    height: 21px;
+    margin: 0 10px;
+    background-color: #16a085;
+    border-radius: 5px;
+}
+
+.about-sec .about-doct-sec .about-doct-sec-text .btn a:hover {
+    background: #16a085;
+    color: #fff;
+}
+
+.about-sec .about-doct-sec .about-doct-sec-text .btn a:hover i {
+    background-color: #fff;
+    color: #16a085;
+    transform: translateX(8px);
+    transition: .5s;
+}
+
+/* About-section-End */
+
+
+/* Doctor-section Start */
+
+.docter-sec {
+    padding: 70px 0;
+}
+
+.docter-sec .docter-text {
+    text-align: center;
+}
+
+.docter-sec .docter-text h1 {
+    font-size: 54px;
+    font-weight: 700;
+    color: #444;
+    /* word-spacing: 3px; */
+}
+
+.docter-sec .docter-text h1 span {
+    color: #16a085;
+}
+
+.docter-sec .doctor-card-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.docter-sec .doctor-card-sec .card {
+    width: 340px;
+    height: 340px;
+    border: 2px solid #16a085;
+    box-shadow: 0px 2px 6px 1px #16a085;
+    margin: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.docter-sec .doctor-card-sec .card img {
+    width: 160px;
+    height: 160px;
+    border: 2px solid #16a085;
+    border-radius: 8px;
+    margin-top: 20px;
+
+}
+
+.docter-sec .doctor-card-sec .card .card-text {
+    text-align: center;
+}
+
+.docter-sec .doctor-card-sec .card .card-text h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #444;
+    margin-top: 10px;
+}
+
+.docter-sec .doctor-card-sec .card .card-text p {
+    color: #16a085;
+}
+
+.docter-sec .doctor-card-sec .card .social-icon {
+    display: flex;
+}
+
+.docter-sec .doctor-card-sec .card .social-icon i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #16a085;
+    border-radius: 5px;
+    margin: 12px 5px;
+    color: #16a085;
+
+
+}
+
+.docter-sec .doctor-card-sec .card .social-icon i:hover {
+    background-color: #16a085;
+    color: #fff;
+    transition: .5s;
+}
+
+/* Doctor-section End */
+
+
+/* Book Appointment start */
+
+.book-sec {
+    padding: 70px 0;
+}
+
+.book-sec .book-text {
+    text-align: center;
+}
+
+.book-sec .book-text h1 {
+    font-size: 54px;
+    font-weight: 700;
+    color: #444;
+    text-transform: uppercase;
+}
+
+.book-sec .book-text h1 span {
+    color: #16a085;
+}
+
+.book-sec .book-appoint {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.book-sec .book-appoint img {
+    width: 40%;
+}
+
+.book-sec .book-appoint .book-appoint-text {
+    width: 560px;
+    height: 380px;
+    border: 3px solid #16a085;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.book-sec .book-appoint .book-appoint-text h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #444;
+    margin-top: 15px;
+}
+
+.book-sec .book-appoint .book-appoint-text input {
+    width: 520px;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 15px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 3px solid #16a085;
+    outline: none;
+}
+
+.book-sec .book-appoint .book-appoint-text .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-sec .book-appoint .book-appoint-text .btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border: 2px solid #16a085;
+    color: #444;
+    margin: 20px 0;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px 0px #16a085;
+    color: #16a085;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.book-sec .book-appoint .book-appoint-text .btn a:hover {
+    background-color: #16a085;
+    color: #fff;
+}
+
+/* Book Appointment End */
+
+
+
+/* clientreveiw-sec start */
+
+.clientreview-sec {
+    padding: 70px 0;
+}
+
+.clientreview-sec .client-text {
+    text-align: center;
+}
+
+.clientreview-sec .client-text {
+    text-align: center;
+}
+
+.clientreview-sec .client-text h1 {
+    font-size: 54px;
+    font-weight: 700;
+    color: #444;
+    text-transform: uppercase;
+}
+
+.clientreview-sec .client-text h1 span {
+    color: #16a085;
+}
+
+.clientreview-sec .clientreview-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+
+.clientreview-sec .clientreview-card .card {
+    width: 350px;
+    height: 440px;
+    border: 2px solid #16a085;
+    box-shadow: 0px 2px 6px 1px #16a085;
+    margin: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.clientreview-sec .clientreview-card .card img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-top: 10px;
+
+}
+
+.clientreview-sec .clientreview-card .card h3 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #444;
+    display: none;
+    /* margin: 10px 0; */
+}
+
+.clientreview-sec .clientreview-card .card .card-icon {
+    color: #16a085;
+    font-size: 16px;
+    display: none;
+}
+
+.clientreview-sec .clientreview-card .card p {
+    text-align: center;
+    color: #777;
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.clientreview-sec .clientreview-card .card:hover img {
+    transform: translateY(-40px);
+    width: 120px;
+    height: 120px;
+    border-radius: 5%;
+    transition: .8s;
+
+}
+
+.clientreview-sec .clientreview-card .card:hover h3 {
+    transform: translateY(-35px);
+    transition: .4s;
+    display: block;
+}
+
+.clientreview-sec .clientreview-card .card:hover .card-icon {
+    transform: translateY(-25px);
+    transition: .3s;
+    display: block;
+}
+
+
+/* clientreveiw-sec End */
+
+
+/*Blog-sec Start */
+.blog-sec {
+    padding: 70px 0;
+
+}
+
+.blog-sec .blog-text {
+    text-align: center;
+
+
+}
+
+.blog-sec .blog-text h1 {
+    font-size: 54px;
+    font-weight: 700;
+    color: #444;
+    text-transform: uppercase;
+}
+
+.blog-sec .blog-text h1 span {
+    color: #16a085;
+}
+
+.blog-sec .blog-card-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.blog-sec .blog-card-sec .card {
+    width: 335px;
+    height: 400px;
+    border: 2px solid #16a085;
+    box-shadow: 0px 2px 6px 1px #16a085;
+    margin: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-sec .blog-card-sec .card img {
+    width: 250px;
+    height: 135px;
+    margin: 12px;
+    border-radius: 5px;
+}
+
+.blog-sec .blog-card-sec .card:hover img {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.blog-sec .blog-card-sec .card .blog-crd-icon {
+    display: flex;
+    align-items: center;
+}
+
+.blog-sec .blog-card-sec .card .blog-crd-icon .blog-icon {
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.blog-sec .blog-card-sec .card .blog-crd-icon .blog-icon i {
+    margin-right: 10px;
+    color: #16a085;
+    font-size: 18px;
+}
+
+.blog-sec .blog-card-sec .card .blog-crd-icon .blog-icon p {
+    color: #777;
+    font-size: 16px;
+}
+
+.blog-sec .blog-card-sec .card .card-text {
+    margin-top: 15px;
+    padding: 0 40px;
+}
+
+.blog-sec .blog-card-sec .card .card-text h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #444;
+    margin-top: 5px;
+}
+
+.blog-sec .blog-card-sec .card .card-text p {
+    color: #777;
+    margin-top: 5px;
+}
+
+.blog-sec .blog-card-sec .card .card-text .btn a {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border: 2px solid #16a085;
+    color: #444;
+    margin: 15px 0;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px 0px #16a085;
+    color: #16a085;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.blog-sec .blog-card-sec .card .card-text .btn a i {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    width: 21px;
+    height: 21px;
+    margin: 0 10px;
+    background-color: #16a085;
+    border-radius: 5px;
+}
+
+.blog-sec .blog-card-sec .card .card-text .btn a:hover {
+    background-color: #16a085;
+    color: #fff;
+}
+
+.blog-sec .blog-card-sec .card .card-text .btn a:hover i {
+    transform: translateX(8px);
+    transition: .5s;
+    background-color: #fff;
+    color: #16a085;
+}
+
+/* Blog-sec End */
+
+
+/* footer start */
+
+footer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+
+footer .quik-link{
+    display: flex;
+    flex-direction: column;
+    margin: 0 3rem;
+}
+footer .quik-link h2{
+font-size: 28px;
+font-weight: 700;
+color: #444;
+}
+footer .quik-link a{
+margin-top: 10px;
+color: #777;
+padding:0 8px;
+}
+
+footer .quik-link a:hover{
+    transform: translateX(10px);
+    transition: .5s;
+}
+
+footer .quik-link a i{
+color: #16a085;
+padding: 0 4px;
+}
+
+
+footer .our-services{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 4rem;
+}
+footer .our-services h2{
+    font-size: 28px;
+    font-weight: 700;
+    color: #444;
+    margin-bottom: .8rem;
+}
+footer .our-services a{
+    margin-bottom: 1.3rem;
+    color: #777;
+    padding:0 8px;
+}
+footer .our-services a i{
+    color: #16a085;
+padding: 0 4px;
+}
+footer .our-services a:hover{
+    transform: translateX(10px);
+    transition: .5s;
+}
+
+
+footer .contact-info{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 4rem;
+}
+
+footer .contact-info h2{
+    font-size: 28px;
+    font-weight: 700;
+    color: #444;
+    margin-bottom: 1rem;
+}
+footer .contact-info a{
+    margin-bottom: 1.8rem;
+    color: #777;
+    padding:0 8px;
+}
+footer .contact-info a:hover{
+    transform: translateX(10px);
+    transition: .5s;
+}
+
+footer .contact-info a i{
+    color: #16a085;
+    padding: 0 4px;
+}
+
+
+
+footer .follow-us{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 3rem;
+
+}
+footer .follow-us h2{
+    font-size: 28px;
+    font-weight: 700;
+    color: #444;
+    margin-bottom: .7rem;
+}
+footer .follow-us a{
+    margin-bottom: 1.2rem;
+    color: #777;
+    padding:0 8px;
+}
+footer .follow-us a:hover{
+    transform: translateX(10px);
+    transition: .5s;
+}
+footer .follow-us a i{
+    color: #16a085;
+    padding: 0 4px;
+}
+
+
+
+.all-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-text a span{
+    color: #16a085;
+}
+
+/* footer End */
